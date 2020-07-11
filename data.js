@@ -1,0 +1,106 @@
+const questionData = [
+    {
+        id: 0,
+        category: "Tomfoolery",
+        question: "<strong>FREEZE!</strong><br>If your phone is currently in your hand, drink twice for being antisocial.",
+    },
+    {
+        id: 1,
+        category: "Yelling",
+        question: "Everyone think of a colour.<br>On the count of three, everyone will yell their colour outloud. If you say the same colour as someone else, you both drink.<br>One ... two ... three ... RAINBOW!",
+    },
+    {
+        id: 2,
+        category: "Up Close and Personal",
+        question: "If you've masterbated in the last 24 hours, drink twice.",
+    },
+    {
+        id: 3,
+        category: "Category Is...",
+        question: "Condom Brands<br>Starting with <strong>%Name0%</strong>.",
+        namesRequired: 1,
+    },
+    {
+        id: 4,
+        category: "Pop Culture",
+        question: "<strong>%Name0%</strong> - Choose a number between 1 and 12.<br><strong>%Name1%</strong> - give out a drink for every queen from that season of RuPaul's Drag Race that you can name in 10 seconds.<br> Ready, set, go!",
+        namesRequired: 2,
+    },
+    {
+        id: 5,
+        category: "Pop Culture",
+        question: "<strong>%Name0%</strong> - Recite the song 'Lucky' by Britney Spears as a dramatic monologue.<br>Give out a drink for every line you complete without laughing or singing.",
+        namesRequired: 1,
+    },
+    {
+        id: 6,
+        category: "Up Close and Personal",
+        question: "<strong>%Name0%</strong> - What are <strong>%Name1%</strong>, <strong>%Name2%</strong>, and <strong>%Name3%</strong>'s middle names?<br>You drink for every name you get wrong. Everyone drinks for every name you know.",
+        namesRequired: 4,
+    },
+    {
+        id: 7,
+        category: "Pop Culture",
+        question: "<strong>%Name0%</strong> - Fuck, Marry, Kill<br>Cher, Harry Styles, and <strong>%Name1%</strong>",
+        namesRequired: 2,
+    },
+    {
+        id: 8,
+        category: "Category Is...",
+        question: "Queer Female TV Characters<br>Starting with <strong>%Name0%</strong>.",
+        namesRequired: 1,
+    },
+    {
+        id: 9,
+        category: "Category Is...",
+        question: "Toronto Gay/Queer Bars<br>Starting with <strong>%Name0%</strong>.",
+        namesRequired: 1,
+    },
+    {
+        id: 10,
+        category: "Superlatives",
+        question: "<strong>%Name0%</strong> - Who among the group is most likely to hold political office?<br>They have to drink. Obviously.",
+        namesRequired: 1,
+    },
+    {
+        id: 11,
+        category: "Superlatives",
+        question: "<strong>%Name0%</strong> - Who among the group is most likely to appear on Reality TV?<br>They have to drink. Obviously.",
+        namesRequired: 1,
+    },
+    {
+        id: 12,
+        category: "Up Close and Personal",
+        question: "Finish your drink if you've had sex most recently out of everyone.",
+    },
+    {
+        id: 13,
+        category: "Drinking Buddies!",
+        question: "<strong>%Name0%</strong> and <strong>%Name1%</strong> are now drinking buddies!<br>Whenever one of them drinks, they both drink!",
+        namesRequired: 2,
+    },
+    {
+        id: 14,
+        category: "Spelling Bee!",
+        question: "<strong>%Name0%</strong> - close your eyes and spell TARANTULA backwards!",
+        namesRequired: 1,
+    },
+    {
+        id: 15,
+        category: "Category Is...",
+        question: "Broadway Musicals<br>Starting with <strong>%Name0%</strong>.",
+        namesRequired: 1,
+    },
+    {
+        id: 16,
+        category: "Yelling",
+        question: "<strong>%Name0%</strong> - What's your favourite Disney Movie?<br><strong>%Name1%</strong> - you have 30 second to convince us that it's the worst movie of all time before <strong>%Name2%</strong> gets to refute you.<br>Winner gives the best argument.",
+        namesRequired: 3,
+    },
+    {
+        id: 17,
+        category: "Category Is...",
+        question: "Beers!<br>Starting with <strong>%Name0%</strong>.",
+        namesRequired: 1,
+    },
+]
